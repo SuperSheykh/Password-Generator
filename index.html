@@ -9,7 +9,20 @@
         <div id="main-container">  
             <h1>Generate a <span>random password</span></h1>
             <p>Never use an insecure password again.</p>
-            <button id="gen-button" >Generate passwords</button>
+            <form>
+                <div class="label-container">
+                    <label for="nb-length">Length:</label>
+                    <label for="ad-numbers">With numbers?</label>
+                    <label for="ad-caracs">With characters?</label>
+                </div>
+                <div class="input-container">
+                    <input type="number" id="nb-length">
+                    <input type="checkbox" id="ad-numbers" class="check-box">
+                    <input type="checkbox" id="ad-caracs" class="check-box">
+                </div>
+            </form>
+            <input type="button" name="Generate Passwords" id="gen-btn" class="submit" value="Generate Passwords">
+            <!-- <button id="gen-button" class="submit">Generate passwords</button> -->
             <hr/>
             <div id="pwd-container">
                 <h4 id="password-one" class="empty">Password 1</h4>

@@ -31,8 +31,44 @@ p {
     
 
 }
+form {
+    color: aliceblue;
+    /* height: 100px; */
+    display: flex;
+    /* border: 2px solid white; */
+    font-weight: 200;
+    padding-top: 20px;
+}
 
-button {
+.label-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#nb-length {
+    background-color: #273549;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    color: #FFFFFF;
+
+}
+
+.check-box {
+    background: #273549;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+
+#gen-btn{
     font-family: 'Inter', sans-serif;
     font-weight: lighter ;
     width: 195px;
